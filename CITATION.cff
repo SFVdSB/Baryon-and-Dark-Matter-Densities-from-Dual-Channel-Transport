@@ -1,0 +1,11 @@
+# CITATION.cff
+cff-version: 1.2.0
+title: "Baryon and Dark Matter Densities from Dual-Channel Transport (SFV/dSB)"
+authors:
+  - family-names: Hoffmann
+    given-names: Steven
+    orcid: "https://orcid.org/0000-0000-0000-0000"   # <-- your ORCID if you have it
+version: 1.0.0
+date-released: 2025-09-24
+repository-code: "https://github.com/SFVdSB/Baryon-and-Dark-Matter-Densities-from-Dual-Channel-Transport"
+license: MIT
