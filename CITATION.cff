@@ -1,11 +1,36 @@
-# CITATION.cff
 cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+
 title: "Baryon and Dark Matter Densities from Dual-Channel Transport (SFV/dSB)"
+version: 1.0.2
+date-released: 2025-09-24
+license: MIT
+
+repository-code: "https://github.com/SFVdSB/Baryon-and-Dark-Matter-Densities-from-Dual-Channel-Transport"
+
 authors:
   - family-names: Hoffmann
     given-names: Steven
-    orcid: "https://orcid.org/0000-0000-0000-0000"   # <-- your ORCID if you have it
-version: 1.0.0
-date-released: 2025-09-24
-repository-code: "https://github.com/SFVdSB/Baryon-and-Dark-Matter-Densities-from-Dual-Channel-Transport"
-license: MIT
+    # Use ONE of the two lines below for ORCID:
+    # orcid: 0000-0000-0000-0000
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+
+keywords:
+  - cosmology
+  - vacuum decay
+  - Coleman bounce
+  - transport
+  - SFV
+  - de Sitter brane
+
+# Optional, but nice for renderers like GitHub:
+abstract: >
+  Reproducible pipeline coupling a two-field O(4) bounce to dual-channel transport
+  (LSP and baryons). Stabilized numerics (PCHIP; integrals on the original background grid).
+  Tuned S2D1D ≈ 0.94 → LSP/B ≈ 5.7.
+
+# If you have an archived DOI later, add:
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.xxxxxx
