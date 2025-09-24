@@ -1,0 +1,16 @@
+# config/run.yaml
+paths:
+  # Path to Stage-1 output (CSV with columns: r, Phi, phi)
+  background_csv: data/background_profile.csv
+  # Output directory for Stage-2 artifacts
+  outdir: runs/transport_stage2
+
+physics:
+  mu: 0.03
+  r_core: 0.02       # soft-core for 1/r^3 kernels (numerical conditioning)
+  S2D1D: 0.94        # tuned value for DM/B ≈ 5.7
+  target_ratio: null # set to 5.7 to auto-tune; leave null to use S2D1D
+
+viz:
+  eval_n: 30000      # visualization density; does not affect totals
+  make_figs: true    # Stage-2 v3d writes fields/derivatives/theta-delta
