@@ -1,0 +1,3 @@
+python matterDensities2_Quadrature_v3e_calibrated_2.py --bg-csv background_profile.csv --mu 0.03 --r-core 0.0 --S2D1D 0.580872 --outdir runs/stage2_from_bounce --common-norm --rho-baryon-SI 4.17e-28 --m-baryon-GeV 0.938272 --m-lsp-GeV 5
+
+python compute_yields_from_summary_v3.py --summary runs/stage2_from_bounce/summary.json --fix rho_b --rho-baryon-SI 4.17e-28 --m-baryon-GeV 0.938272 --m-lsp-GeV 5
