@@ -1,0 +1,2 @@
+observed,masses,model,assumptions,scales,predicted
+"{'rho_baryon_SI': 4.17e-28, 'rho_dm_SI': None}","{'m_baryon_GeV': 0.938272, 'm_LSP_GeV': 5.0}","{'N_B': 101.04877177827261, 'N_LSP': 108.21755709442023, 'ratio_NL_over_NB': 1.070943814457021}",{'common_norm': True},{'alpha_common_SI': 4.126720123971491e-30},"{'rho_baryon_model_SI': 4.17e-28, 'rho_dm_model_SI': 4.465835706285777e-28, 'n_baryon_model_m3': 0.24930920350629393, 'n_dm_model_m3': 0.05010300221464064}"

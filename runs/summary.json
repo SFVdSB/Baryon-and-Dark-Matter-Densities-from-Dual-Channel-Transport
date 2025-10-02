@@ -1,0 +1,37 @@
+{
+  "mu": 0.03,
+  "S2D1D": 0.580872,
+  "N_LSP": 108.21755709442023,
+  "N_B": 101.04877177827261,
+  "ratio": 1.070943814457021,
+  "bg_points": 279258,
+  "eval_points": 20000,
+  "notes": "Integrals on background grid; v3e adds optional density calibration.",
+  "calibration": {
+    "observed": {
+      "rho_baryon_SI": 4.17e-28,
+      "rho_dm_SI": null
+    },
+    "masses": {
+      "m_baryon_GeV": 0.938272,
+      "m_LSP_GeV": 5.0
+    },
+    "model": {
+      "N_B": 101.04877177827261,
+      "N_LSP": 108.21755709442023,
+      "ratio_NL_over_NB": 1.070943814457021
+    },
+    "assumptions": {
+      "common_norm": true
+    },
+    "scales": {
+      "alpha_common_SI": 4.126720123971491e-30
+    },
+    "predicted": {
+      "rho_baryon_model_SI": 4.17e-28,
+      "rho_dm_model_SI": 4.465835706285777e-28,
+      "n_baryon_model_m3": 0.24930920350629393,
+      "n_dm_model_m3": 0.05010300221464064
+    }
+  }
+}
